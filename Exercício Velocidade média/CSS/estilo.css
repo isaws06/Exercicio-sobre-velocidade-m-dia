@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    font-family: Arial;
+   
+}
+
+header{
+    background-color: rgb(253, 211, 163);
+    color: rgb(253, 110, 44);
+    padding: 10px;
+    text-align: left;
+}
+
+footer{
+    background-color: rgb(253, 110, 44);
+    color: #fff;
+    padding: 20px;
+}
+
+footer li{
+    list-style: none;
+}
+
+.container{
+    margin-top: 40px;
+    border: 3px solid rgb(221, 102, 47);
+    padding: 5px;
+    border-radius: 15px;
+    width: 30px 400px;
+    
+}
+
+.container header{
+    background-color: rgb(250, 168, 129);
+    width: 100%;
+    justify-content: center;
+    margin-top: 3px;
+    border-radius: 3px;
+    color: rgb(221, 102, 47);
+}
+
+
+.container input{
+    border: 2px solid rgb(221, 102, 47);
+    border-radius: 15px;
+    width: 100%;
+    padding: 5px;
+    margin-block-end: 10px;
+}
+
+.container button{
+    border: 2px solid rgb(221, 102, 47);
+    border-radius: 10px;
+    background-color: rgb(250, 168, 129);
+    padding: 8px;
+    color:rgb(221, 102, 47)
+}
