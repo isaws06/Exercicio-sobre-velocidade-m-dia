@@ -6,8 +6,15 @@ body{
 
 header{
     background-color: rgb(253, 211, 163);
+    width: 100%;
+    justify-content: center;
+    color: rgb(221, 102, 47);
+    padding: 15px;
+}
+
+h4{
+    background-color: rgb(253, 211, 163);
     color: rgb(253, 110, 44);
-    padding: 10px;
     text-align: left;
 }
 
@@ -24,28 +31,34 @@ footer li{
 .container{
     margin-top: 40px;
     border: 3px solid rgb(221, 102, 47);
-    padding: 5px;
+    padding: 13px;
     border-radius: 15px;
-    width: 30px 400px;
+    width:40%
     
 }
 
-.container header{
-    background-color: rgb(250, 168, 129);
-    width: 100%;
-    justify-content: center;
-    margin-top: 3px;
-    border-radius: 3px;
-    color: rgb(221, 102, 47);
+.titulo p {
+    margin-left: 10px;
+    color: rgb(206, 89, 36);
+    padding: 4px;
 }
+
+.titulo {
+    border: 3px solid #faa881;;
+    border-radius: 5px;
+    background-color: #faa881;;
+    margin-bottom: 10px;
+    border-bottom: 4px;
+}
+
 
 
 .container input{
     border: 2px solid rgb(221, 102, 47);
     border-radius: 15px;
     width: 100%;
-    padding: 5px;
-    margin-block-end: 10px;
+    padding: 6px;
+    margin-block-end: 15px;
 }
 
 .container button{
@@ -54,4 +67,39 @@ footer li{
     background-color: rgb(250, 168, 129);
     padding: 8px;
     color:rgb(221, 102, 47)
+}
+
+.resultado {
+    border: 3px solid rgb(221, 102, 47);
+    padding: 13px;
+    margin: auto;
+    width: 40%;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.resultado header {
+    background-color: #faa881;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 3px;
+    color: rgb(221, 102, 47);
+}
+
+.resultado p {
+    margin-left: 10px;
+}
+
+.historico {
+    border: 2px solid rgb(221, 102, 47);
+    border-radius: 15px;
+    width: 100%;
+    padding: 60px;
+    margin-block-end: 10px;
+}
+
+.input-result {
+    margin-top: 10px;
+    background-color:#faa881 ;
 }
